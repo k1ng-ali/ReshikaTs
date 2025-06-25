@@ -21,7 +21,7 @@ function AppContent() {
     const shouldShowHeader = !HideHeader.includes(location.pathname);
     const shouldShowFooter = !HideFooter.includes(location.pathname);
     const [limit] = useState(10);
-    const [offset, setOffset] = useState(0);
+    const [offset] = useState(0);
     const {data: posts, isLoading: isLoadingContent} = useGetPosts(limit, offset);
     const [messageApi, contextHolder] = message.useMessage();
 
