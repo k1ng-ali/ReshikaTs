@@ -1,0 +1,260 @@
+[
+  {
+    "id": 1,
+    "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "author": "User1",
+    "date": "04.04.25 1:13",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+    "likes": 103,
+    "isLiked": false,
+    "answers": [
+      {
+        "id": 1,
+        "author": "User02",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 10,
+        "isLiked": false
+      },
+      {
+        "id": 2,
+        "author": "User43",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 34,
+        "isLiked": false
+      },
+      {
+        "id": 3,
+        "author": "User24",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 54,
+        "isLiked": false
+      },
+      {
+        "id": 4,
+        "author": "User22",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 12,
+        "isLiked": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "author": "User1",
+    "date": "04.04.25 1:13",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+    "likes": 103,
+    "isLiked": false,
+    "answers": [
+      {
+        "id": 1,
+        "author": "User02",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 10,
+        "isLiked": false
+      },
+      {
+        "id": 2,
+        "author": "User43",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 34,
+        "isLiked": false
+      },
+      {
+        "id": 3,
+        "author": "User24",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 54,
+        "isLiked": false
+      },
+      {
+        "id": 4,
+        "author": "User22",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 12,
+        "isLiked": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "author": "User1",
+    "date": "04.04.25 1:13",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+    "likes": 103,
+    "isLiked": false,
+    "answers": [
+      {
+        "id": 1,
+        "author": "User02",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 10,
+        "isLiked": false
+      },
+      {
+        "id": 2,
+        "author": "User43",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 34,
+        "isLiked": false
+      },
+      {
+        "id": 3,
+        "author": "User24",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 54,
+        "isLiked": false
+      },
+      {
+        "id": 4,
+        "author": "User22",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 12,
+        "isLiked": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "author": "User1",
+    "date": "04.04.25 1:13",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+    "likes": 103,
+    "isLiked": false,
+    "answers": [
+      {
+        "id": 1,
+        "author": "User02",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 10,
+        "isLiked": false
+      },
+      {
+        "id": 2,
+        "author": "User43",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 34,
+        "isLiked": false
+      },
+      {
+        "id": 3,
+        "author": "User24",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 54,
+        "isLiked": false
+      },
+      {
+        "id": 4,
+        "author": "User22",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 12,
+        "isLiked": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "author": "User1",
+    "date": "04.04.25 1:13",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+    "likes": 103,
+    "isLiked": false,
+    "answers": [
+      {
+        "id": 1,
+        "author": "User02",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 10,
+        "isLiked": false
+      },
+      {
+        "id": 2,
+        "author": "User43",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 34,
+        "isLiked": false
+      },
+      {
+        "id": 3,
+        "author": "User24",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 54,
+        "isLiked": false
+      },
+      {
+        "id": 4,
+        "author": "User22",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 12,
+        "isLiked": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "author": "User1",
+    "date": "04.04.25 1:13",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+    "likes": 103,
+    "isLiked": false,
+    "answers": [
+      {
+        "id": 1,
+        "author": "User02",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 10,
+        "isLiked": false
+      },
+      {
+        "id": 2,
+        "author": "User43",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 34,
+        "isLiked": false
+      },
+      {
+        "id": 3,
+        "author": "User24",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 54,
+        "isLiked": false
+      },
+      {
+        "id": 4,
+        "author": "User22",
+        "date": "04.04.25 1:13",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque dolorum enim minima ratione. Distinctio.",
+        "likes": 12,
+        "isLiked": false
+      }
+    ]
+  }
+]
