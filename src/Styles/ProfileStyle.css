@@ -1,0 +1,91 @@
+.Profile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    position: absolute;
+    width: 100%;
+    max-width: 900px;
+}
+
+.User-info-container{
+
+}
+
+.block{
+    box-shadow: #dadada 2px 1px 10px;
+    padding: 20px;
+    border-radius: 7px;
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.name-сcontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.name{
+    margin-right: 40px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.username{
+    display: inline-block;
+    background-color: #fbd8ea;
+    color: #FC6C85;
+    border: #FC6C85 1px solid;
+    border-radius: 3px;
+    margin-right: 20px;
+    font-size: 0.8rem !important;
+    padding: 0 5px 0 5px !important;
+    font-weight: 600;
+}
+
+.follow-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.info-secondary{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+.info-primary{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: smaller;
+    font-weight: 550;
+    align-items: center;
+}
+.icon{
+    fill: #2f2f2f;
+    margin-right: 5px;
+}
+
+.description{
+    font-size: smaller;
+    font-weight: 550;
+}
+
+.bio{
+    display: flex;
+    align-items: center;
+}
+
+.join-info{
+    margin-top: 10px;
+}

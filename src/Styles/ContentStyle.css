@@ -1,0 +1,350 @@
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    max-width: 650px;
+    min-width: 170px;
+    padding: 20px 10px 10px 20px;
+    width: 70%;
+    z-index: -10;
+    margin-top: 50px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 650px) {
+    .content {
+        width: 80%;
+    }
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: #eaeaea 1px solid;
+    background-color: white;
+    z-index: -50;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 10px 0 10px;
+    box-shadow: 2px 2px 30px #eaeaea;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border 0.5s ease-in-out;
+    cursor: default;
+}
+
+.task:hover {
+    background-color: #ffffff !important;
+    border: 1px #4f9ee5 solid;
+    transform: scale(1.01);
+    z-index: 50;
+}
+
+.content h3 {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.content .crt_info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content .author{
+    display: inline-block;
+    background-color: #fbd8ea;
+    color: #FC6C85;
+    border: #FC6C85 1px solid;
+    border-radius: 3px;
+    margin: 7px;
+    margin-left: 0;
+    font-size: 0.7rem !important;
+    padding: 0 5px 0 5px !important;
+    font-weight: 600;
+}
+
+.content .date{
+    display: inline-block;
+    font-size: 0.7rem !important;
+}
+
+.content .subscribe{
+    margin-right: 20px;
+    border: none;
+    background-color: #434343;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 2px 2px 30px #eaeaea;
+    font-size: 0.7rem !important;
+    padding: 2px 5px 2px 5px !important;
+    font-weight: 600;
+    transition:  transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.content .subscribe:hover{
+    background-color: #202216;
+    color: #D1E0D7;
+    transform: scale(1.04) !important;
+}
+
+.content .text{
+    font-size: 0.9rem !important;
+}
+
+.active-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.reaction-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #434343;
+    padding: 3px;
+    border-radius: 7px;
+    position: relative;
+}
+.up{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    transition: transform 0.2s ease-in-out;
+    z-index: 100;
+}
+
+.up-icon{
+    fill: white;
+    transition: fill 0.2s ease-in-out;
+}
+
+
+
+.interesting{
+    color: white;
+    font-size: 0.7rem !important;
+    padding:0;
+    font-weight: 600;
+    margin: 0;
+    z-index: 100;
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.interesting.liked{
+    color:red;
+}
+
+.up:hover .up-icon, .up:hover .interesting{
+    fill: #FC350B;
+    color: #FC350B;
+}
+
+.up-icon.liked {
+    fill: red;
+}
+
+.up:hover {
+    text-shadow: #b5b5b5 1px 1px 10px;
+}
+.likes-count {
+    margin: 0 7px 0 7px;
+    font-size: 0.7rem !important;
+    color: white;
+}
+
+@media (max-width: 550px){
+    .interesting{
+        display: none;
+    }
+}
+
+.task-btn {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.show-more, .hide-answers {
+    color: #434343;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    font-size: 0.7rem !important;
+    font-weight: 600;
+}
+.show-more:hover, .hide-answers:hover {
+    background-color: #eaeaea;
+}
+
+.answers-count {
+    font-size: 0.7rem !important;
+}
+
+.answers-wrapper {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px #b5b5b5 solid;
+    margin: 5px 10px 5px 30px;
+    transition: 0.7s ease-in-out;
+}
+
+.answers {
+    overflow: hidden;
+    transition:all 0.7s ease-in-out;
+    scrollbar-width: thin !important;
+    overflow-y: auto;
+    max-height: 0;
+}
+
+.answers-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.to-answer-btn{
+    color: #434343;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    font-size: 0.7rem !important;
+    font-weight: 600;
+}
+.to-answer-btn:hover{
+    background-color: #eaeaea;
+}
+.answers.open {
+    max-height: 300px;
+    transition:all 0.7s ease-in-out;
+    opacity: 1;
+}
+
+.answers.closing {
+    max-height: 0;
+    opacity: 0;
+    transition:all 0.7s ease-in-out;
+}
+
+
+.answers.close {
+    max-height: 0;
+    transition:all 0.7s ease-in-out;
+}
+
+.answer-input-area{
+    display: none;
+    align-items: end;
+    box-shadow: 2px 2px 10px #cdcdcd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: #eaeaea 1px solid;
+    position: relative;
+    z-index: 100;
+    transition:all 0.7s ease-in-out;
+    overflow: auto;
+}
+.answer-input-area.open{
+    display: flex;
+    max-height: 500px;
+    opacity: 1;
+}
+.answer-input-area.closing{
+    display: flex;
+    max-height: 0;
+    opacity: 0;
+}
+.answer-input-area.close{
+    max-height: 0;
+    display: none;
+}
+
+.answer-input{
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 10px ;
+    padding-right: 10px ;
+    border: none;
+    border-radius: 10px;
+    resize: vertical;
+    overflow: auto;
+}
+.answer-input:focus{
+    outline: none;
+}
+
+.answer-btn-cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 10px;
+}
+
+.send-answer-button{
+    background-color: #434343;
+    border: none;
+    height: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-right: 0;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.send-answer-button:hover{
+    background-color: #6e6e6e;
+    scale: 1.03;
+}
+.send-answer-button.unactive {
+    background-color: #6e6e6e;
+    color: #c1c1c1;
+}
+
+.author.answer-to{
+    display: flex;
+    width: fit-content;
+    top: 0;
+    margin-top: 5px;
+    margin-right: 0;
+}
+
+.hasnt-answers {
+    display: flex;
+    justify-content: center;
+    margin:10px 0;
+    color: #c1c1c1;
+    width: 100%;
+}
+
+
+.ans-len {
+    display: flex;
+    font-size: x-small;
+    margin: 0;
+    margin-top: 5px;
+    color: #434343;
+}
+.ans-len.err{
+    color: #aa8484;
+}
+
+/* Класс open задаёт достаточное значение max-height,
+   чтобы вместить все ответы. Значение можно подбирать экспериментально */
+
+
+

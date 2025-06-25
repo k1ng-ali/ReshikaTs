@@ -1,0 +1,78 @@
+.post {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 750px;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1500;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    margin: 0;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.close-btn{
+    color: #fd4c4e;
+    background-color: #fd4c4e;
+}
+.btn-text{
+    color: #fd4c4e;
+    font-weight: bolder;
+}
+.btn-text:hover{
+    color: #ff7778;
+}
+
+.creat-btn{
+    background-color: #434343;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 7px;
+    margin-top: 20px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.creat-btn:hover{
+    scale: 1.01;
+    background-color: #616161;
+}
+.creat-btn.disable{
+    background-color: #616161;
+    color: #b5b5b5;
+    cursor: not-allowed;
+}
+
+
+
