@@ -1,3 +1,6 @@
+## Описания проекта осталось в другой репозиторий, это репозиторий полностью пересоздан из-за того что перешел с js на ts
+https://github.com/k1ng-ali/ReshiKaReact
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
